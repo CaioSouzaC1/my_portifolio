@@ -7,7 +7,10 @@ export default {
         sans: ["Noto Sans", "sans-serif"],
       },
       height: {
-        sc: "calc(100vh - 56px)",
+        sc: "calc(100vh - 112px)",
+      },
+      animation: {
+        "move-up-down": "move-up-down",
       },
     },
   },
