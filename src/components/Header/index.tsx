@@ -15,7 +15,9 @@ const Header = () => {
           <li>
             <a href="#about">Sobre</a>
           </li>
-          <li>Habilidades</li>
+          <li>
+            <a href="#skills">Habilidades</a>
+          </li>
           <li>Diferenciais</li>
           <li>Portifólio</li>
           <li>Contato</li>

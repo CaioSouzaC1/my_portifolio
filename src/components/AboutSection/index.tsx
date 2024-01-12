@@ -18,17 +18,17 @@ const AboutSection = () => {
   return (
     <section
       id="about"
-      className="bg-gradient-to-t from-stone-900 to-neutral-800 h-sc">
+      className="bg-gradient-to-t from-stone-900 to-neutral-800 min-h-sc">
       <Container classNames="flex flex-wrap justify-around">
         <div className="w-full text-center">
           <h4 className="font-bold border-b border-sky-500 text-4xl inline-block mb-8">
             Sobre Mim
           </h4>
         </div>
-        <div className="h-96 w-96 rounded-xl border-2 border-zinc-700 overflow-hidden pt-4 animate-move-up-down animate-moveUpDown">
-          <img src="../../../src/assets/img/CaioPNG.png" alt="Caio Souza" />
+        <div className="h-96 w-96 rounded-xl border-2 mb-8 border-zinc-700 overflow-hidden pt-4 animate-move-up-down animate-moveUpDown">
+          <img src="../../../public/imgs/CaioPNG.png" alt="Caio Souza" />
         </div>
-        <div className="w-1/2">
+        <div className="w-full md:w-1/2">
           <p className="mb-4 font-semibold text-lg">
             Caio César de Souza, {age} anos 🧓, praticamente casado 💍,
             corinthiano 🦅, programador 👨‍💻 e amante de tecnologia 🖥️.
@@ -38,8 +38,8 @@ const AboutSection = () => {
             desenvolvimento de portais de notícias, sistemas, apis etc.
           </p>
           <p className="mb-4 font-semibold text-lg">
-            Atualmente atuo como Desenvolvedor Junior III, trabalhando somente
-            com backend, focado em construção de apis para sistemas.
+            Atualmente atuo como Desenvolvedor Junior III, trabalhando com
+            backend, focado em construção de apis para sistemas.
           </p>
           <p className="mb-4 font-semibold text-lg">
             Por ter trabalhado mais de 2 anos como vendedor, tenho experiência e

@@ -6,7 +6,7 @@ export default {
       fontFamily: {
         sans: ["Noto Sans", "sans-serif"],
       },
-      height: {
+      minHeight: {
         sc: "calc(100vh - 112px)",
       },
       animation: {

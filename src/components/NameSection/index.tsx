@@ -14,7 +14,7 @@ const NameSection = () => {
   return (
     <section
       id="home"
-      className="bg-gradient-to-b from-zinc-950 to-neutral-800 py-4 h-sc flex items-center">
+      className="bg-gradient-to-b from-zinc-950 to-neutral-800 py-4 min-h-sc flex items-center">
       <Container classNames="flex flex-wrap justify-around">
         <div>
           <p className="text-2xl mb-4">👋🏻 Olá, prazer, eu sou</p>
