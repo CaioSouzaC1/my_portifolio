@@ -1,4 +1,4 @@
-name: My Portifolio Deploy
+name: Portifolio Deploy
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  prod-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
