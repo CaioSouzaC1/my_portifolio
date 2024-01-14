@@ -8,7 +8,7 @@ interface IProjectCard {
 
 const ProjectCard = ({ title, image, text, tec, link }: IProjectCard) => {
   return (
-    <div className="w-full md:w-1/2 lg:w-1/3 text-center px-4 mb-8">
+    <div className="w-full md:w-1/2 lg:w-1/3 text-center px-4 mb-20 lg:mb-8">
       <img
         className="w-full max-h-48 object-cover rounded mb-4"
         src={image}
