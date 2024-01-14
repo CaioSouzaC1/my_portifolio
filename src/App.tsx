@@ -1,7 +1,9 @@
-import AboutSection from "./components/AboutSection";
+import AboutSection from "./components/Sections/AboutSection";
 import Header from "./components/Header";
-import NameSection from "./components/NameSection";
-import SkillsSection from "./components/SkillsSection";
+import NameSection from "./components/Sections/NameSection";
+import ProjectsSection from "./components/Sections/ProjectsSection";
+import SkillsSection from "./components/Sections/SkillsSection";
+import ContactSection from "./components/Sections/ContactSection";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <NameSection />
       <AboutSection />
       <SkillsSection />
+      <ProjectsSection />
+      <ContactSection />
     </>
   );
 }

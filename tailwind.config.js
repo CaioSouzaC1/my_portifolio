@@ -7,7 +7,7 @@ export default {
         sans: ["Noto Sans", "sans-serif"],
       },
       minHeight: {
-        sc: "calc(100vh - 112px)",
+        sc: "calc(100vh - 154px)",
       },
       animation: {
         "move-up-down": "move-up-down",

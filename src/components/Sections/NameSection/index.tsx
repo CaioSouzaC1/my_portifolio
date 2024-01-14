@@ -1,6 +1,6 @@
-import Container from "../Container";
+import Container from "../../Container";
 import Lottie from "react-lottie";
-import animationData from "../../../src/assets/img/melottie.json";
+import animationData from "../../../assets/img/melottie.json";
 const NameSection = () => {
   const defaultOptions = {
     loop: true,
@@ -14,9 +14,9 @@ const NameSection = () => {
   return (
     <section
       id="home"
-      className="bg-gradient-to-b from-zinc-950 to-neutral-800 py-4 min-h-sc flex items-center">
+      className="bg-gradient-to-b from-zinc-950 to-neutral-800 py-4 min-h-sc flex items-center pb-12 lg:pb-0">
       <Container classNames="flex flex-wrap justify-around">
-        <div>
+        <div className="mt-12 lg:mt-0">
           <p className="text-2xl mb-4">👋🏻 Olá, prazer, eu sou</p>
           <h1 className="text-slate-50 text-5xl font-bold">
             Caio César de Souza
@@ -43,7 +43,7 @@ const NameSection = () => {
           </a>
         </div>
         <div>
-          <div className="-mt-8 max-w-[400px] w-full max-h-[400px] h-full">
+          <div className="mt-8 lg:-mt-8 max-w-[400px] w-full max-h-[400px] h-full">
             <Lottie options={defaultOptions} />
           </div>
         </div>
