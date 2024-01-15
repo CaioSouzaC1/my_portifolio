@@ -44,7 +44,7 @@ const AboutSection = () => {
             Por ter trabalhado mais de 2 anos como vendedor, tenho experiência e
             facilidade para lidar diretamente com clientes, fazendo reuniões,
             levantamento de requisitos, expectativas etc. Tenho interesse pela
-            liderança, isso é algo quqe habita em mim desde criança.
+            liderança, isso é algo que habita em mim desde criança.
           </p>
           <p className="mb-4 font-semibold text-lg">
             Se você procura um desenvolvedor comprometido, dedicado e com uma
