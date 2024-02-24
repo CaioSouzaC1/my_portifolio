@@ -4,7 +4,7 @@ import TitleSection from "../../TitleSection";
 const ContactSection = () => {
   return (
     <section
-      id="projects"
+      id="contact"
       className="bg-gradient-to-t from-zinc-950 to-neutral-800 py-4 flex items-center border-b-2 border-zinc-700 pb-24">
       <Container classNames="flex flex-wrap justify-around">
         <TitleSection title="Contato" />

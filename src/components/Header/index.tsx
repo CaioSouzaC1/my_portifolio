@@ -20,7 +20,9 @@ const Header = () => {
           <li>
             <a href="#projects">Projetos</a>
           </li>
-          <li>Contato</li>
+          <li>
+            <a href="#contact">Contato</a>
+          </li>
         </ul>
       </Container>
     </header>
