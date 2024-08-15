@@ -37,8 +37,8 @@ const AboutSection = () => {
             desenvolvimento de portais de notícias, sistemas, apis etc.
           </p>
           <p className="mb-4 font-semibold text-lg">
-            Atualmente atuo como Desenvolvedor Junior III, trabalhando com
-            backend, focado em construção de apis para sistemas.
+            Estou atuando como Desenvolvedor Pleno I, focado em construção de
+            apis para sistemas em Laravel e front em NextJs.
           </p>
           <p className="mb-4 font-semibold text-lg">
             Por ter trabalhado mais de 2 anos como vendedor, tenho experiência e

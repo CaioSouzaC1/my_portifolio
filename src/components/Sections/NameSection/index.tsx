@@ -22,7 +22,7 @@ const NameSection = () => {
             Caio César de Souza
           </h1>
           <h2 className="text-2xl mb-4" title="Front também se necessário">
-            Desenvolvedor Backend 🔗
+            Desenvolvedor FullStack Pleno🔗
           </h2>
           <h3>
             Estudando Dev desde 2020, atuando profissionalmente desde 2022. 🚀
