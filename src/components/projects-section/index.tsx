@@ -204,6 +204,23 @@ export const CloseIcon = () => {
 
 const cards = [
   {
+    description: "FullStack (Laravel, Nextjs & React Native)",
+    title: "Idx Library",
+    src: "/imgs/idx.png",
+    ctaText: "Ver",
+    ctaLink: "https://github.com/CaioSouzaC1/idx",
+    content: () => {
+      return (
+        <p>
+          iDX é uma plataforma de biblioteca online que permite aos
+          administradores cadastrar categorias e livros pelo sistema web e aos
+          usuários comuns lerem e acompanharem o progresso de leitura no app
+          mobile.
+        </p>
+      );
+    },
+  },
+  {
     description: "Frontend NextJS",
     title: "Seat Scheduler Web",
     src: "/imgs/SeatScheduler.png",
