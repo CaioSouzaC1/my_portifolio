@@ -4,11 +4,11 @@ const URL = "https://caiosouza.dev";
 
 export const metadata = {
   title: "Caio César de Souza",
-  description: "DesenvolvedorFullStack",
+  description: "Desenvolvedor FullStack",
   openGraph: {
     url: URL + "/",
     title: "Caio César de Souza",
-    description: "DesenvolvedorFullStack",
+    description: "Desenvolvedor FullStack",
     images: [
       {
         url: URL + "/imgs/thumb.png",
