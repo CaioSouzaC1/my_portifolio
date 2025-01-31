@@ -21,7 +21,7 @@ export function TimelineSection() {
             <span className="font-semibold">Júnior III</span> atualmente meu
             cargo é <span className="font-semibold">Pleno I</span>.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-y-6">
             <WorkCardProject
               text="Estruturação do banco de dados, arquitetura base da api e
                 desenvolvimento total do frontend."
@@ -31,6 +31,14 @@ export function TimelineSection() {
               text="Refatoração, Manutenção e desenvolvimento de novas
                 funcionalidades."
               src="/imgs/work/mkt.png"
+            />
+            <WorkCardProject
+              text="Refatoração do frontend, adição de funcionalidades na api e integração bancária."
+              src="/imgs/work/ldapp.png"
+            />
+            <WorkCardProject
+              text="Ministrei um curso de Git, Github e Github Action para CI CD."
+              src="/imgs/work/treino.png"
             />
           </div>
         </div>
@@ -76,7 +84,7 @@ export function TimelineSection() {
           </p>
           <p className="text-sm">
             Fiz diversos projetos pessoais, mas não cabem aqui por conta da
-            qualidade baixa, que é normal quando está aprendendo algo novo.
+            qualidade baixa, que é normal quando se está aprendendo algo novo.
           </p>
         </div>
       ),
