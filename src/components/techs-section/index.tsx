@@ -1,6 +1,5 @@
 import React from "react";
 import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
-import { CardSpotlight } from "../ui/card-spotlight";
 import {
   SiAdonisjs,
   SiAmazonec2,
@@ -8,6 +7,8 @@ import {
   SiDocker,
   SiFirebase,
   SiGithubactions,
+  SiGooglecloud,
+  SiGooglecloudHex,
   SiLaravel,
   SiLinux,
   SiMysql,
@@ -20,6 +21,8 @@ import {
   SiShadcnui,
   SiSqlite,
   SiTailwindcss,
+  SiTypeorm,
+  SiTypeormHex,
   SiTypescript,
   SiWordpress,
 } from "@icons-pack/react-simple-icons";
@@ -62,13 +65,15 @@ export function TechsSection() {
         { icon: SiPostgresql, color: "#4169E1" },
         { icon: SiFirebase, color: "#DD2C00" },
         { icon: SiPrisma, color: "#2D3748" },
+        { icon: SiTypeorm, color: SiTypeormHex },
       ],
     },
     {
       title: "Infraestutura",
-      pinTitle: "Databases / ORMs",
+      pinTitle: "Clouds / CI CDS",
       icons: [
         { icon: SiAmazonec2, color: "#FF9900" },
+        { icon: SiGooglecloud, color: SiGooglecloudHex },
         { icon: SiLinux, color: "#FCC624" },
         { icon: SiDocker, color: "#2496ED" },
         { icon: SiGithubactions, color: "#2088FF" },

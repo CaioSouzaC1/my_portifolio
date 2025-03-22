@@ -4,6 +4,43 @@ import { Timeline } from "@/components/ui/timeline";
 export function TimelineSection() {
   const data = [
     {
+      title: "2025",
+      content: (
+        <div>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+            Empresa:{" "}
+            <a
+              href="https://going2.com.br/"
+              target="_blank"
+              className="underline font-bold"
+              rel="noopener noreferrer">
+              {" "}
+              Going2 Custom Tech
+            </a>
+            . <br /> Iniciei como <span className="font-semibold">
+              Pleno I
+            </span>{" "}
+            atualmente meu cargo é{" "}
+            <span className="font-semibold">Pleno I</span>.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-y-6">
+            <WorkCardProject
+              text="Manutenção e adição de novas funcionalidades, na api, web e app."
+              src="/imgs/work/mb.png"
+            />
+            <WorkCardProject
+              text="Manutenção e adição de novas funcionalidades no portal."
+              src="/imgs/work/sosma.png"
+            />
+            <WorkCardProject
+              text="Desenvolvimento da plataforma de cursos com Wordpress."
+              src="/imgs/work/dry.png"
+            />
+          </div>
+        </div>
+      ),
+    },
+    {
       title: "2024",
       content: (
         <div>
@@ -18,8 +55,8 @@ export function TimelineSection() {
               Next Tecnologia
             </a>
             . <br /> Iniciei como{" "}
-            <span className="font-semibold">Júnior III</span> atualmente meu
-            cargo é <span className="font-semibold">Pleno I</span>.
+            <span className="font-semibold">Júnior III</span> e finalizei minha
+            passagem como <span className="font-semibold">Pleno I</span>.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-y-6">
             <WorkCardProject

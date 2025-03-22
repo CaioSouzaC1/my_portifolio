@@ -21,15 +21,27 @@ export function AboutSection() {
     return (
       <div className="relative">
         <BackgroundLines className="flex items-center justify-center w-full flex-col gap-2 !h-80">
-            <h2 className="text-center text-3xl font-bold tracking-tight">
-                Sobre mim
-            </h2>
-            <p className="font-medium text-center">Caio César de Souza, {age} anos, praticamente casado e corinthiano.</p>
-            <p className="font-medium text-center">Concluí o curso técnico de informática. Tenho com experiência em desenvolvimento de portais de notícias, Saas e apis.</p>
-            <p className="font-medium text-center">Estou atuando como <span className="font-bold">Desenvolvedor Pleno I</span>, construindo apis para sistemas em Laravel e interfaces em NextJs.</p>
-            <p className="font-medium text-center">Antes do dev, trabalhei mais de 2 anos como vendedor, por isso tenho experiência e facilidade para lidar diretamente com clientes.</p>
-
+          <h2 className="text-center text-3xl font-bold tracking-tight">
+            Sobre mim
+          </h2>
+          <p className="font-medium text-center">
+            Caio César de Souza, {age} anos, praticamente casado e corinthiano.
+          </p>
+          <p className="font-medium text-center">
+            Concluí o curso técnico de informática. Tenho com experiência em
+            desenvolvimento de portais de notícias, Saas e apis.
+          </p>
+          <p className="font-medium text-center">
+            Estou atuando como{" "}
+            <span className="font-bold">Desenvolvedor Pleno I</span>,
+            construindo apis para sistemas em Laravel/Node e interfaces em
+            NextJs/ReactJs.
+          </p>
+          <p className="font-medium text-center">
+            Antes do dev, trabalhei mais de 2 anos como vendedor, por isso tenho
+            experiência e facilidade para lidar diretamente com clientes.
+          </p>
         </BackgroundLines>
-    </div>
-  );
+      </div>
+    );
 }
