@@ -30,7 +30,7 @@ import { PinContainer } from "../ui/3d-pin";
 import { useTheme } from "next-themes";
 
 export function TechsSection() {
-  const { theme } = useTheme();
+  useTheme();
 
   const techs = [
     {
@@ -50,8 +50,8 @@ export function TechsSection() {
       pinTitle: "Frameworks / Libs / Css Frameworks",
       icons: [
         { icon: SiReact, color: "#61DAFB" },
-        { icon: SiNextdotjs, color: theme === "light" ? "#000000" : "#fff" },
-        { icon: SiShadcnui, color: theme === "light" ? "#000000" : "#fff" },
+        { icon: SiNextdotjs, color: "#fff" },
+        { icon: SiShadcnui, color: "#fff" },
         { icon: SiTailwindcss, color: "#06B6D4" },
         { icon: SiBootstrap, color: "#7952B3" },
       ],
