@@ -1,7 +1,6 @@
 import React from "react";
 import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 import {
-  SiAdonisjs,
   SiAmazonec2,
   SiBootstrap,
   SiDocker,
@@ -12,6 +11,7 @@ import {
   SiLaravel,
   SiLinux,
   SiMysql,
+  SiNestjs,
   SiNextdotjs,
   SiNodedotjs,
   SiPhp,
@@ -41,8 +41,8 @@ export function TechsSection() {
         { icon: SiPhp, color: "#777BB4" },
         { icon: SiTypescript, color: "#3178C6" },
         { icon: SiLaravel, color: "#FF2D20" },
-        { icon: SiAdonisjs, color: "#5A45FF" },
         { icon: SiWordpress, color: "#21759B" },
+        { icon: SiNestjs, color: "#E0234E" },
       ],
     },
     {

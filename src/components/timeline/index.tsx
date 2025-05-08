@@ -36,6 +36,10 @@ export function TimelineSection() {
               text="Desenvolvimento da plataforma de cursos com Wordpress."
               src="/imgs/work/dry.png"
             />
+            <WorkCardProject
+              text="Desenvolvimento da plataforma de cursos com Wordpress."
+              src="/imgs/work/ped.png"
+            />
           </div>
         </div>
       ),
