@@ -85,7 +85,7 @@ export function MarqueeDemo() {
       </p>
 
       <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
-        <Marquee pauseOnHover className="[--duration:20s]">
+        <Marquee pauseOnHover className="[--duration:35s]">
           {firstGroup.map((src, index) => (
             <Image
               key={index}
@@ -98,7 +98,7 @@ export function MarqueeDemo() {
             />
           ))}
         </Marquee>
-        <Marquee reverse pauseOnHover className="[--duration:25s]">
+        <Marquee reverse pauseOnHover className="[--duration:35s]">
           {secondGroup.map((src, index) => (
             <Image
               key={index}
@@ -111,7 +111,7 @@ export function MarqueeDemo() {
             />
           ))}
         </Marquee>
-        <Marquee pauseOnHover className="[--duration:30s]">
+        <Marquee pauseOnHover className="[--duration:35s]">
           {thirdGroup.map((src, index) => (
             <Image
               key={index}

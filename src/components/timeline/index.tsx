@@ -121,7 +121,7 @@ export function TimelineSection() {
       content: (
         <div className="flex flex-col gap-4">
           <p className="text-xl font-normal">
-            Estudei bastante, muito Youtube, Escova Virtual (Bradesco) e Udemy.
+            Estudei bastante, muito Youtube, Escola Virtual (Bradesco) e Udemy.
           </p>
           <p className="text-sm">
             Aqui foi o ínicio de tudo, com baixo orçamento cursos gratuitos eram
