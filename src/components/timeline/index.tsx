@@ -121,12 +121,24 @@ export function TimelineSection() {
       content: (
         <div className="flex flex-col gap-4">
           <p className="text-xl font-normal">
-            Estudei bastante, muito Youtube e Udemy.
+            Estudei bastante, muito Youtube, Escova Virtual (Bradesco) e Udemy.
           </p>
           <p className="text-sm">
-            Fiz diversos projetos pessoais, mas não cabem aqui por conta da
-            qualidade baixa, que é normal quando se está aprendendo algo novo.
+            Aqui foi o ínicio de tudo, com baixo orçamento cursos gratuitos eram
+            o caminho, em paralelo fiz diversos projetos pessoais, mas não cabem
+            aqui por conta da qualidade baixa, que é normal quando se está
+            aprendendo algo novo.
           </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-y-6">
+            <WorkCardProject
+              text="Curso básico de lógica de programação."
+              src="/certificates/ev1.png"
+            />
+            <WorkCardProject
+              text="Curso básico de html."
+              src="/certificates/ev2.png"
+            />
+          </div>
         </div>
       ),
     },

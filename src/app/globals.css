@@ -3,8 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-
-  :root  {
+  :root {
     --background: 224 0% 95%;
     --foreground: 224 0% 0%;
     --card: 224 0% 90%;
@@ -26,7 +25,8 @@
     --ring: 224 76.3% 48%;
     --radius: 1rem;
   }
-  .dark  {
+
+  .dark {
     --background: 224 10% 5%;
     --foreground: 224 0% 90%;
     --card: 224 0% 0%;
@@ -48,14 +48,40 @@
     --ring: 224 76.3% 48%;
     --radius: 1rem;
   }
-  
-}
 
-@layer base {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+
+  @keyframes marquee-vertical {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(calc(-100% - var(--gap)));
+    }
+  }
+
+  .animate-marquee {
+    animation: marquee var(--duration, 25s) linear infinite;
+  }
+
+  .animate-marquee-vertical {
+    animation: marquee-vertical var(--duration, 25s) linear infinite;
   }
 }

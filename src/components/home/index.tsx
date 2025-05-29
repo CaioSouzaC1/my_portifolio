@@ -6,6 +6,7 @@ import { ProjectsSection } from "@/components/projects-section";
 import { TechsSection } from "@/components/techs-section";
 import { ThemeChanger } from "@/components/theme-changer";
 import { TimelineSection } from "@/components/timeline";
+import { MarqueeDemo } from "../certificates-section";
 
 export default function HomeComponent() {
   return (
@@ -21,6 +22,7 @@ export default function HomeComponent() {
             <ProjectsSection />
           </div>
           <TimelineSection />
+          <MarqueeDemo />
           <TechsSection />
           <ContactSection />
         </div>
