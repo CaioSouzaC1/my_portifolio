@@ -79,9 +79,9 @@ const fourthGroup = shuffledCertificates.slice(24, 32);
 
 export function MarqueeDemo() {
   return (
-    <div>
+    <div className="mb-8">
       <p className="font-bold text-3xl lg:text-4xl col-span-full text-center my-2 lg:my-8">
-        Alguns dos meus certificados (Mais de 60 no total)
+        Alguns dos meus certificados (+ de 60 no total)
       </p>
 
       <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
@@ -92,7 +92,6 @@ export function MarqueeDemo() {
               width={970}
               height={700}
               quality={100}
-              priority
               src={src}
               alt={`Certificate ${index + 1}`}
               className="h-32 w-auto rounded-lg shadow-md"
