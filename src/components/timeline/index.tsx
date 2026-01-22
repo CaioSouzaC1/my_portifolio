@@ -4,6 +4,29 @@ import { Timeline } from "@/components/ui/timeline";
 export function TimelineSection() {
   const data = [
     {
+      title: "2026",
+      content: (
+        <div>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+            Empresa: <p className="underline font-bold inline"> CNC</p>
+            . <br /> Iniciei como{" "}
+            <span className="font-semibold">Tech Lead</span> atualmente meu
+            cargo é <span className="font-semibold">Tech Lead</span>.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-y-6">
+            <WorkCardProject
+              text="Liderança técnica de equipe de desenvolvimento."
+              src="/imgs/work/rnr.png"
+            />
+            <WorkCardProject
+              text="Liderança técnica de equipe de desenvolvimento."
+              src="/imgs/work/gde.png"
+            />
+          </div>
+        </div>
+      ),
+    },
+    {
       title: "2025",
       content: (
         <div>
