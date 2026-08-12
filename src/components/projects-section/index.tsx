@@ -204,6 +204,22 @@ export const CloseIcon = () => {
 
 const cards = [
   {
+    description: "House Price, comparador de imóveis com scraping via IA",
+    title: "House Price",
+    src: "/imgs/houseprice.png",
+    content: () => {
+      return (
+        <p>
+          Agregador de imóveis que reúne anúncios de dezenas de imobiliárias do
+          Vale do Paraíba em um só lugar. Nasceu de um problema real: procurar
+          casa abrindo 50 sites de imobiliária, cada um com um filtro diferente
+          e nenhum histórico de preço.
+        </p>
+      );
+    },
+  },
+  ,
+  {
     description: "FullStack (Laravel, Nextjs & React Native)",
     title: "Idx Library",
     src: "/imgs/idx.png",
