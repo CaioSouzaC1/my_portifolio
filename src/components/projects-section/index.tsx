@@ -218,7 +218,6 @@ const cards = [
       );
     },
   },
-  ,
   {
     description: "FullStack (Laravel, Nextjs & React Native)",
     title: "Idx Library",
